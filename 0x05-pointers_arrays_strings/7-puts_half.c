@@ -13,10 +13,10 @@ void puts_half(char *str)
 
 	while (str[half_string] != '\0')
 		half_string++;
-	if (half_string + 1 % 2 != '\0')
-		n = (half_string - 1) \ 2;
+	if (half_string + 1 % 2 != '0')
+		n = (half_string - 1) / 2;
 	else
-		n = (half_string \ 2);
+		n = (half_string / 2);
 	n++;
 
 	for (half_string = n; str[half_string] !=  '\0'; half_string++)
