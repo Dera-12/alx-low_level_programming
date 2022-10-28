@@ -14,6 +14,5 @@ char *_strcat(char *dest, char *src)
 	char str2[] = "World!\n";
 
 	strcat(str1, str2);
-	_putchar(str1);
-	_putchar('\n');
+	return (dest);
 }
